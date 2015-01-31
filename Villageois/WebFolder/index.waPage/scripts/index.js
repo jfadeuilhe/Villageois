@@ -21,7 +21,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	documentEvent.onLoad = function documentEvent_onLoad (event)// @startlock
 	{// @endlock
-		// Add your code here
+		chgLangue("fr");
 	};// @lock
 
 // @region eventManager// @startlock

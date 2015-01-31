@@ -26,11 +26,6 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		
 	};// @lock
 
-	function chgLangue(lg){
-		
-		localization.changeLanguage(lg); 
-		
-	};
 // @region eventManager// @startlock
 	WAF.addListener("image3", "click", image3.click, "WAF");
 	WAF.addListener("image2", "click", image2.click, "WAF");
