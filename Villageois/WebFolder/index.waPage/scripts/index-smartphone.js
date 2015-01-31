@@ -11,18 +11,17 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	image3.click = function image3_click (event)// @startlock
 	{// @endlock
-		chgLangue("en");
+		chgLangue("fr");
 	};// @lock
 
 	image2.click = function image2_click (event)// @startlock
 	{// @endlock
-		chgLangue("fr");
+		chgLangue("en");
 	};// @lock
 
 	documentEvent.onLoad = function documentEvent_onLoad (event)// @startlock
 	{// @endlock
 		initLangue();
-		
 	};// @lock
 
 // @region eventManager// @startlock

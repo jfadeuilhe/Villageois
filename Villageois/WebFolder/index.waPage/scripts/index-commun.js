@@ -1,1 +1,1 @@
-﻿function chgLangue(lg){		localization.changeLanguage(lg); 	};	
+﻿function chgLangue(lg){	localization.changeLanguage(lg); 	};	function initLangue(){		localization.initTrad("fr", [{id:"txtAccroche",type:"Text",lab:"accroche"}]);	};
