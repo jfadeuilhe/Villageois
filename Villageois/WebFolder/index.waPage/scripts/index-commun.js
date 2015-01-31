@@ -1,0 +1,1 @@
+﻿function chgLangue(lg){		localization.changeLanguage(lg); 	};	
